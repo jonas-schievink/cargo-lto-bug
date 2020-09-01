@@ -1,0 +1,10 @@
+[package]
+name = "cargo-lto-bug"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+bitflags = "1"
+
+[profile.dev]
+lto = true
